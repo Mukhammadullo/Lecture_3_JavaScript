@@ -117,25 +117,16 @@ console.log(result) // Hello my name is Alex
 
 
 ```
->## _slice()-This method is used to extract a portion of a string or an array._
+>## _slice()-This method is used to extract a portion of a string or an array.The substring method returns a new string that includes the characters from the starting index up to, but not including, the ending index.$Ru:Этот метод используется для извлечения части строки или массива.Метод slice возвращает новую строку или массив, включающий символы или элементы от начального индекса до, но не включая, конечный индекс._
+```js
+//method_slice()
+
+let str="Hello my name is Tom"
+let result=str.slice(2, 7)
+console.log(result) //name
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 ## _trim()-Method trim() removes whitespace from both sides of a string.The trim() method does not change the original string_
 ```js
 
