@@ -153,18 +153,15 @@ let result=str.repeat(2)
 console.log(result) //Welcome to Softclub Welcome to Softclub 
 
 ```
+>## _The indexOf() method returns the position of the first occurrence of a value in a string._
+```js
+//method indexOf()
 
+let str="Javascript is programming language!"
+let result=str.indexOf()
+console.log(result)  //11
 
-
-
-
-
-
-
-
-
-
-
+```
 
 >## _The toLowerCase() method converts a string to lowercase letters.The toLowerCase() method does not change the original string._
 ```js 
