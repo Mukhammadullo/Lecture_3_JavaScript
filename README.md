@@ -144,6 +144,28 @@ console.log(result) //Hello my name is Amir
 console.log(str)   //      Hello my name is Amir      
 ```
 
+>## _The repeat() method creates a new string by repeating the given string a specified number oftimes and returns it._
+```js
+//method repeat()
+
+let str="Welcome to Softclub "
+let result=str.repeat(2)
+console.log(result) //Welcome to Softclub Welcome to Softclub 
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 >## _The toLowerCase() method converts a string to lowercase letters.The toLowerCase() method does not change the original string._
 ```js 
 
@@ -154,8 +176,15 @@ let result=str.toLowerCase()
 console.log(result) //can you give me your book please!
 ```
 
+>## _The toUpperCase() method converts a string to uppercase letters, using current locale.The toUpperCase() method does not change the original string._
+```js
+//method toUpperCase()
 
+let str="can you give me your book please!"
+let result=str.toUppeCase()
+console.log(result) //CAN YOU GIVE ME YOUR BOOK PLEASE!
 
+```
 
 
 
