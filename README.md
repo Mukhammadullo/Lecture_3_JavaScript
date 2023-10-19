@@ -117,7 +117,7 @@ console.log(result) // Hello my name is Alex
 
 
 ```
->## _slice()-_
+>## _slice()-This method is used to extract a portion of a string or an array._
 
 
 
