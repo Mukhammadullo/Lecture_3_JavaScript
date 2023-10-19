@@ -119,15 +119,21 @@ console.log(result) // Hello my name is Alex
 ```
 >## _slice()-This method is used to extract a portion of a string or an array.The substring method returns a new string that includes the characters from the starting index up to, but not including, the ending index.$Ru:Этот метод используется для извлечения части строки или массива.Метод slice возвращает новую строку или массив, включающий символы или элементы от начального индекса до, но не включая, конечный индекс._
 ```js
-//method_slice()
+//method_slice(start, end)
 
+//1
 let str="Hello my name is Tom"
 let result=str.slice(2, 7)
 console.log(result) //name
 
+//2
+
+let str="Hello my name is Hamza"
+let resutl=str.slice(3)
+console.log(result)  //name is Hamza
 
 ```
-## _trim()-Method trim() removes whitespace from both sides of a string.The trim() method does not change the original string_
+>## _trim()-Method trim() removes whitespace from both sides of a string.The trim() method does not change the original string_
 ```js
 
 //method trim()
@@ -137,6 +143,17 @@ let result=str.trim()
 console.log(result) //Hello my name is Amir
 console.log(str)   //      Hello my name is Amir      
 ```
+
+>## _The toLowerCase() method converts a string to lowercase letters.The toLowerCase() method does not change the original string._
+```js 
+
+//method toLowerCase()
+
+let str="CAN YOU GIVE ME YOUR BOOK PLEASE!"
+let result=str.toLowerCase()
+console.log(result) //can you give me your book please!
+```
+
 
 
 
