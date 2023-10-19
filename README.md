@@ -163,6 +163,22 @@ console.log(result)  //11
 
 ```
 
+>## _The includes() method returns true if a string contains a specified string.Otherwise it returns false.The includes() method is case sensitive_
+```js
+//method includes()
+
+//1
+let str="Hello my name is Amir"
+let result=str.includes("is")
+console.log(result)   //true
+
+//2
+let str="Hello my name is Tom"
+let result=str.includes("Jony")
+console.log(result) //false
+
+```
+
 >## _The toLowerCase() method converts a string to lowercase letters.The toLowerCase() method does not change the original string._
 ```js 
 
@@ -181,6 +197,70 @@ let str="can you give me your book please!"
 let result=str.toUppeCase()
 console.log(result) //CAN YOU GIVE ME YOUR BOOK PLEASE!
 
+```
+
+# _2.JavaScript number methods_
+> _1.The Math.floor() function rounds down a number to the next smallest integer_
+```js
+
+let num=48.9
+console.log(Math.floor(num)) //48
+```
+> _2.The Math.round() function returns the number rounded to the nearest integer_
+```js
+
+let num=3.7
+console.log(Math.round(num)) // 4
+
+
+let num=3.3
+console.log(Math.round(num)) //3
+
+
+```
+> _3.The ceil() method rounds a decimal number up to the next largest integer and returns it._
+```js
+
+let num=3.2
+console.log(Math.ceil(num)) //4
+
+```
+> _4.The max() method finds the maximum value among the specified values and returns it_
+```js
+let numbers=Math.max(12,3,2,4,6,7,1,25)
+console.log(numbers) //25
+```
+> _5.The min() method finds the minimum value among the specified values and returns it._
+```js
+let numbers=Math.min(12,3,2,5,-23,6,3,8)
+console.log(numbers) //-23
+
+```
+> _6.The pow() method computes the power of a number by raising the second argument to the power of the first argument_
+```js
+let num=Math.pow(5,2)
+console.log(num) //25
+```
+> _7.The sqrt() method computes the square root of a specified number and returns it_
+```js
+let num=Math.sqrt(4)
+console.log(num) //2
+```
+> _8.The abs() method finds the absolute value of the specified number (without any sign) and returns it._
+```js
+let num=Math.abs(-23)
+console.log(num) //23
+```
+> _9.The Math.random() function returns a floating-point, pseudo-random number between 0 (inclusive) and 1 (exclusive)_
+```js
+
+let num=Math.random()*10
+console.log(num)  //2.342234233434341
+```
+> _10.The isNaN() function checks if a value is NaN (Not-a-Number) or not._
+```js
+let num=10;
+console.log(isNaN(num)) //false
 ```
 
 
