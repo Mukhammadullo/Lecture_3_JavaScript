@@ -28,7 +28,7 @@ console.log(name) //Muhammadullo Nastulloev
 ```js
 //method CharAt()
 
-let name="Muhammadullo"
+let name="Mukhammadullo"
 console.log(name.charAt(1)) //u
 
 ```
